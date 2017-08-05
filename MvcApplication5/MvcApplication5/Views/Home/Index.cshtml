@@ -1,0 +1,11 @@
+﻿@model IEnumerable<MvcApplication5.Models.Account>
+
+
+ @Html.ActionLink("Add","Add") 
+ <br/>  
+        
+@foreach(var item in Model)
+{
+    @Html.DisplayFor(dsad => item.Name);
+    <br/>
+}
